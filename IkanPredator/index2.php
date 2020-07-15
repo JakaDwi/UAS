@@ -38,6 +38,7 @@
     <!-- morrisjs CSS
 		============================================ -->
     <link rel="stylesheet" href="css/morrisjs/morris.css">
+    
     <!-- mCustomScrollbar CSS
 		============================================ -->
     <link rel="stylesheet" href="css/scrollbar/jquery.mCustomScrollbar.min.css">
@@ -48,6 +49,7 @@
     <!-- calendar CSS
 		============================================ -->
     <link rel="stylesheet" href="css/calendar/fullcalendar.min.css">
+    <link rel="stylesheet" href="css/dataTables.bootstrap4.min.css">
     <link rel="stylesheet" href="css/calendar/fullcalendar.print.min.css">
     <!-- style CSS
 		============================================ -->
@@ -273,6 +275,13 @@
     <!-- main JS
 		============================================ -->
     <script src="js/main.js"></script>
+    <script src="js/jquery.dataTables.min.js"></script>
+<script src="js/dataTables.bootstrap4.min.js"></script>
+	<script>
+		$(document).ready(function() {
+    $('#example').DataTable();
+} );
+		</script>
 </body>
 
 </html>
